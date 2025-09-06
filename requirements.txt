@@ -1,0 +1,4 @@
+pyTelegramBotAPI
+schedule
+tenacity
+requests
