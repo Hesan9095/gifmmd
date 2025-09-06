@@ -8,7 +8,7 @@ from tenacity import retry, stop_after_attempt, wait_fixed, retry_if_exception_t
 import requests
 from telebot.apihelper import ApiTelegramException
 
-TOKEN = "توکن_تو_اینجا"
+TOKEN = "7505098396:AAFDQb0emCA8yBKL3ou7-_G2vSDwL2xDyt0"
 CHANNEL_ID = "-1002230740786"
 BOT_USERNAME = "gifmmd_bot"
 ADMIN_USER_ID = 7373449365
@@ -289,3 +289,4 @@ def run_scheduler():
 if __name__ == '__main__':
     threading.Thread(target=run_scheduler, daemon=True).start()
     bot.polling()
+
